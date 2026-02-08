@@ -1,0 +1,14 @@
+name: SmartNPCs
+main: com.smartnpcs.SmartNPCs
+version: 1.0
+api-version: 1.21
+author: You
+commands:
+  smartnpc:
+    description: SmartNPC main command
+    usage: /smartnpc
+permissions:
+  smartnpcs.admin:
+    default: op
+  smartnpcs.use:
+    default: true
