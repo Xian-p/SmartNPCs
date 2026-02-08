@@ -1,0 +1,16 @@
+npcs:
+  example:
+    name: "&eQuest Master"
+    permission: "smartnpcs.use"
+    location:
+      world: "world"
+      x: 0
+      y: 64
+      z: 0
+    dialogue:
+      - "Hello adventurer!"
+      - "Can you help me?"
+    actions:
+      - "message &aThanks for clicking!"
+      - "command give %player% diamond 1"
+      - "teleport 100 64 100"
